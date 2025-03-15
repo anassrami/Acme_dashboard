@@ -1,1 +1,5 @@
-export { useColorScheme } from 'react-native';
+
+// Always return 'light' mode regardless of system setting
+export function useColorScheme() {
+  return 'light';
+}
